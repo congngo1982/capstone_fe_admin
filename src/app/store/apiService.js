@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
 import Axios from 'axios';
-export const baseURL = 'http://localhost:8080/api/v1';
+export const baseURL = 'https://capstone-be-x5nd.onrender.com/api/v1';
 
 const axiosBaseQuery =
 	() =>
